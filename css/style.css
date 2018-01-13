@@ -171,7 +171,7 @@ strong{
 	padding-top: 10px;
 }
 
-@media(max-width: 375px){
+@media(max-width: 667px){
 
 	#p1{
 		width: 375px;
@@ -189,5 +189,13 @@ strong{
 		height: 550px;
 		width: 375px;
 
+	}
+
+	#p5{
+		width: 375px;
+	}
+
+	#p6{
+		width: 375px;
 	}
 }

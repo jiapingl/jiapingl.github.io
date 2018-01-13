@@ -171,31 +171,8 @@ strong{
 	padding-top: 10px;
 }
 
-@media(max-width: 667px){
-
-	#p1{
-		width: 375px;
-	}
-
-	#p2{
-		width: 375px;
-	}
-
-	#p3{
-		width: 375px;
-	}
-
-	#p4{
-		height: 550px;
-		width: 375px;
-
-	}
-
-	#p5{
-		width: 375px;
-	}
-
-	#p6{
-		width: 375px;
+@media(max-width: 960px){
+	#size{
+		width: auto;
 	}
 }

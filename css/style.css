@@ -17,6 +17,13 @@ body{
 /*	line-height: 38px;*/
 }
 
+.navbar-toggle::before {
+    content:"MENU";
+    position:absolute;
+    right: 45px;
+    bottom: 3px; 
+ }
+
 /*.navbar-header button{
 	margin-top: 16px;
 	height: 38px;
@@ -56,12 +63,12 @@ nav ul li a{*/
 /*	transition: .5s;*/
 /*}*/
 
-#menu .active{
+#menu .active a{
 	color: yellow;
 }
 
 .pageOne{
-	background-color: rgb(0, 204, 153);
+	background-color: rgb(0, 153, 153);
 	background-size: cover;
 	height: 600px;
 	padding-top: 100px;
@@ -84,7 +91,7 @@ nav ul li a{*/
 }
 
 .block{
-	padding-top: 40px;
+	padding-top: 60px;
 }
 
 .title{
@@ -101,7 +108,7 @@ strong{
 }
 
 .pageThree{
-	background-color: rgb(0, 204, 153);
+	background-color: rgb(0, 153, 153);
 	color: white;
 	background-size: cover;
 	height: 480px;
@@ -120,7 +127,7 @@ strong{
 }
 
 .pageFive{
-	background-color: rgb(0, 204, 153);
+	background-color: rgb(0, 153, 153);
 	height: 480px;
 	background-size: cover;
 	color:white;

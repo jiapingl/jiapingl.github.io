@@ -17,12 +17,12 @@ body{
 /*	line-height: 38px;*/
 }
 
-.navbar-toggle::before {
+/*.navbar-toggle::before {
     content:"MENU";
     position:absolute;
     right: 45px;
     bottom: 3px; 
- }
+ }*/
 
 /*.navbar-header button{
 	margin-top: 16px;
@@ -167,11 +167,19 @@ strong{
 	}
 
 	.navbar-custom .navbar-brand{
-		font-size: 1.0em;
+		font-size: 0.7em;
 	}
 
 	.title{
 		font-size: 1.5em;
+	}
+
+	#p1 h1{
+		font-size: 2.0em;
+	}
+
+	#p3{
+		height: 540px;
 	}
 
 	#p4 .school{

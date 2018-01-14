@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,20 +38,54 @@
 
 	<div class="pageOne text-center" id="p1">
 
-		<div class="block">
-			<div>
-				<img src="img/WechatIMG14.jpeg" class="me">
-				<h1 class="title">SKILLED JAVA DEVELOPER</h1>
-				<hr class="hr" noshade align="center" width="30%">
-			</div>
-		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
 
-			<div>
-				<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
-				<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
-				<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
-			</div>
-		</div>
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		      <div class="item active" id="img1">
+		        <!-- <img src="img/1.jpg" alt="Los Angeles" style="width:100%;"> -->
+		        <div class="container block">
+		        	<img src="img/WechatIMG14.jpeg" class="me">
+					<h1 class="title">JAVA DEVELOPER</h1>
+					<hr class="hr" noshade align="center" width="30%">
+					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
+		        </div>
+		      </div>
+
+		      <div class="item" id="img2">
+		        <!-- <img src="img/2.jpg" alt="Chicago" style="width:100%;"> -->
+		        <div class="container block">
+		        	<img src="img/WechatIMG14.jpeg" class="me">
+					<h1 class="title">WEB DEVELOPER</h1>
+					<hr class="hr" noshade align="center" width="30%">
+					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
+		        </div>
+		      </div>
+		    
+		      <div class="item" id="img3">
+		        <!-- <img src="img/3.jpg" alt="New york" style="width:100%;"> -->
+		        <div class="container block">
+		        	<img src="img/WechatIMG14.jpeg" class="me">
+					<h1 class="title">SEEKING INTERNSHIP</h1>
+					<hr class="hr" noshade align="center" width="30%">
+					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
+		        </div>
+		      </div>
+		    </div>
+    		
+  		</div>
 
 	</div>
 
@@ -112,8 +148,7 @@
 		<p class="text-center footer">Copyright © Jiaping Luo 2017</p>
 	</div>
 
-	<script  src="js/jquery-3.2.1.min.js"></script>
-	<script  src="js/bootstrap.js"></script>
+
 	<script  src="js/app.js"></script>
 </body>
 </html>

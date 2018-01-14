@@ -46,6 +46,6 @@ $(document).ready(function(){
 	$('#menu li a').click(function(){
     	$('.navbar-collapse').collapse('hide');
 	});
-
 })
+
 

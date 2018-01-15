@@ -278,7 +278,8 @@ strong{
 	}
 
 	#p1 .social{
-		font-size: 0.6em;
+		font-size: 0.7em;
+		padding: 5px;
 	}
 
 	.title{
@@ -322,7 +323,7 @@ strong{
 	}
 
 	#p4 {
-		height: 650px;
+		height: 580px;
 	}
 
 	#p4 .inner-content .overlay-content h4{

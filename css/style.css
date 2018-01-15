@@ -148,18 +148,15 @@ strong{
 	font-size: 1.3em;
 }
 
-#p4 .container{
-	padding: 0;
-	margin: 0;
+#p4 .owl-carousel{
+	margin-top: 50px;
 }
 
 #p4 .inner-content{
-	display: inline-block;
 	position: relative;
-	width: 230px;
-	height: 180px;
-	margin-left: 26.6px;
-	margin-right: 26.6px; 
+	
+	margin-left: 20px;
+	margin-right: 20px; 
 }
 
 #p4 .inner-content img{
@@ -199,6 +196,28 @@ strong{
 	top: 0px;
 }
 
+#p4 .owl-nav{
+	margin-top: 20px;
+}
+
+#p4 .owl-nav div{
+	display: inline-block;
+}
+
+#p4 .owl-nav .owl-prev{
+	margin-left: 48%;
+}
+
+#p4 .owl-nav img{
+	height: 20px;
+	background-color: grey;
+	margin-right: 30px;
+	border-radius: 40%;
+}
+
+#p4 .owl-nav img:hover{
+	background-color: rgb(255, 153, 51);
+}
 
 .pageFive{
 	background-color: rgb(0, 153, 153);
@@ -264,19 +283,36 @@ strong{
 	#p4 .school{
 		font-size: 1.0em;
 	}
-}
 
-@media(max-width: 990px){
-	#p4 .inner-content{
-		width: 130px;
-		height: 180px;
+	#p4 .inner-content .overlay-content h4{
+		margin-top: 30px;
+	}
+
+	#p4 .inner-content .overlay-content p{
+		margin-top: 30px;
+		color: white;
+		font-size: 0.7em;
 	}
 }
 
-@media(min-width:990, max-width: 1200px){
-	#p4 .inner-content{
-		width: 160px;
-		height: 180px;
+@media(max-width: 600px){
+	#p4 .owl-nav{
+		display: none;
+	}
+
+	#p4 {
+		height: 650px;
+	}
+
+	#p4 .inner-content .overlay-content h4{
+		margin-top: 140px;
+	}
+
+	#p4 .inner-content .overlay-content p{
+		margin-top: 30px;
+		color: white;
+		font-size: 0.7em;
 	}
 }
+
 

@@ -51,12 +51,28 @@ $(document).ready(function(){
 	var owl = $('.owl-carousel');
 	var owlCarouselTimeout = 1000;
 	owl.owlCarousel({
+	   nav: true,
+  	   navText: ["<img src='img/back.png'>","<img src='img/next.png'>"],
 	   items:4,
 	   loop:true,
 	   margin:10,
 	   autoplay:true,
 	   autoplayTimeout: owlCarouselTimeout,
-	   autoplayHoverPause:true
+	   autoplayHoverPause:true,
+	   responsiveClass:true,
+	   responsive:{
+	        0:{
+	            items:1
+
+	        },
+	        600:{
+	            items:3
+
+	        },
+	        1000:{
+	            items:4
+	        }
+	    },
 	});
 	owl.on('mouseleave',function(){
 	   owl.trigger('stop.owl.autoplay'); //this is main line to fix it

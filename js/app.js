@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 	$(".slide").click(function(e){
 
 		var link=$(this).attr("href");
@@ -46,6 +47,30 @@ $(document).ready(function(){
 	$('#menu li a').click(function(){
     	$('.navbar-collapse').collapse('hide');
 	});
+
+	$('#p4 #demo').carouFredSel({
+
+		responsive:true,
+		circular:true,
+		width:"100%",
+		prev:"#prev",
+		next:"#next",
+        scroll : { 
+            items            : 1,  
+            duration         : 500, 
+            pauseOnHover     : true 
+        },
+        auto:true,
+        items:{
+        	visible:{
+        		min:1,
+        		max:4
+        	},
+        	height:"variable"
+        }
+
+	}); 
+
 })
 
 

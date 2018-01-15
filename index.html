@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/carouFredSel.js" type="text/javascript"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -38,54 +39,62 @@
 
 	<div class="pageOne text-center" id="p1">
 
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		    <!-- Indicators -->
-		    <ol class="carousel-indicators">
-		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      <li data-target="#myCarousel" data-slide-to="1"></li>
-		      <li data-target="#myCarousel" data-slide-to="2"></li>
-		    </ol>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					    <!-- Indicators -->
+					    <ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					    </ol>
 
-		    <!-- Wrapper for slides -->
-		    <div class="carousel-inner">
-		      <div class="item active" id="img1">
-		        <!-- <img src="img/1.jpg" alt="Los Angeles" style="width:100%;"> -->
-		        <div class="container block">
-		        	<img src="img/WechatIMG14.jpeg" class="me">
-					<h1 class="title">JAVA DEVELOPER</h1>
-					<hr class="hr" noshade align="center" width="30%">
-					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
-					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
-					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
-		        </div>
-		      </div>
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner">
+					      <div class="item active" id="img1">
+					        <div class="container block">
+								<h1 class="title">JAVA DEVELOPER</h1>
+					        </div>
+					      </div>
 
-		      <div class="item" id="img2">
-		        <!-- <img src="img/2.jpg" alt="Chicago" style="width:100%;"> -->
-		        <div class="container block">
-		        	<img src="img/WechatIMG14.jpeg" class="me">
-					<h1 class="title">WEB DEVELOPER</h1>
-					<hr class="hr" noshade align="center" width="30%">
-					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
-					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
-					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
-		        </div>
-		      </div>
-		    
-		      <div class="item" id="img3">
-		        <!-- <img src="img/3.jpg" alt="New york" style="width:100%;"> -->
-		        <div class="container block">
-		        	<img src="img/WechatIMG14.jpeg" class="me">
-					<h1 class="title">SEEKING INTERNSHIP</h1>
-					<hr class="hr" noshade align="center" width="30%">
-					<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
-					<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
-					<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
-		        </div>
-		      </div>
-		    </div>
-    		
-  		</div>
+					      <div class="item" id="img2">
+					        <div class="container block">
+								<h1 class="title">WEB DEVELOPER</h1>
+					        </div>
+					      </div>
+					    
+					      <div class="item" id="img3">
+					        <div class="container block">
+								<h1 class="title">FRONT-END DEVELOPER</h1>
+					        </div>
+					      </div>
+					    </div>
+    	
+ 					</div>
+
+ 					<div class="fixpos" style="position:absolute; top:120px; left: 70px; right: 70px;">
+				      <div class="container">
+
+				      		<div  style="text-align:center;">
+				      			<img src="img/WechatIMG14.jpeg" class="me">
+					        	<hr class="hr" noshade align="center" width="30%">
+
+					        	<div class="wrap">
+						        	<a class="social" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+									<a class="social" href="https://github.com/jiapingl"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+									<a class="social" href="https://www.linkedin.com/in/jiaping-luo-7b954614b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
+					        	</div>
+
+				      		</div>
+
+				      </div>
+	    			</div>
+
+				</div>
+			</div>
+		</div>
+
 
 	</div>
 
@@ -114,15 +123,66 @@
 		</div>
 	</div>
 
-	<div class="pageFour text-center" id="p4">
-		<div class="block">
+	<div class="pageFour" id="p4">
+
+
+		<div class="block text-center">
 			<h1 class="school">MASTER OF COMPUTER SCIENCE</h1>
 			<h1 class="school">UNIVERSITY OF CALIFORNIA, SAN DIEGO</h1>
 			<hr class="hr" noshade align="center" width="30%">
-			<p class="subtitle">GPA 3.9</p>
-			<p>I have a formal background of Computer Science. And I am a quick learner.</p>
-			<p>I have also worked with Python, C++, PHP, MySql, Shell, etc.</p>
 		</div>
+			<!-- <p class="subtitle">GPA 3.9</p>
+			<p>I have a formal background of Computer Science. And I am a quick learner.</p>
+			<p>I have also worked with Python, C++, PHP, MySql, Shell, etc.</p> -->
+
+			<div id="demo" class="container">
+    				<div class="inner-content">
+							<img src="https://images.unsplash.com/photo-1508530786855-dfea35260b8d?auto=format&fit=crop&w=1650&q=80">
+							<div class="overlay-content">
+								<h4>USS Midway Museum</h4>
+								<p><a href="https://www.tripadvisor.com/AttractionProductDetail-g60750-d12005472-Skip_the_Line_USS_Midway_Museum-San_Diego_California.html">Click here</a> for detail</p>
+							</div>
+					</div>
+
+					<div class="inner-content">
+							<img src="https://images.unsplash.com/photo-1463436755683-3f805a9d1192?auto=format&fit=crop&w=1653&q=80">
+							<div class="overlay-content">
+								<h4>San Diego Zoo</h4>
+								<p><a href="https://www.tripadvisor.com/AttractionProductDetail-g60750-d11987893-San_Diego_Zoo-San_Diego_California.html">Click here</a> for detail</p>
+							</div>
+					</div>
+
+					<div class="inner-content">
+							<img src="https://images.unsplash.com/photo-1514939858417-04071cf25fa6?auto=format&fit=crop&w=1651&q=80">
+							<div class="overlay-content">
+								<h4>SeaWorld® San Diego</h4>
+								<p><a href="https://www.tripadvisor.com/AttractionProductDetail-g60750-d11987905-SeaWorld_reg_San_Diego-San_Diego_California.html">Click here</a> for detail</p>
+							</div>
+					</div>
+
+					<div class="inner-content">
+							<img src="https://images.unsplash.com/photo-1465705000695-bce015a201a4?auto=format&fit=crop&w=1650&q=80">
+							<div class="overlay-content">
+								<h4>Maritime Museum</h4>
+								<p><a href="https://www.tripadvisor.com/AttractionProductDetail-g60750-d11471407-Maritime_Museum_of_San_Diego_Admission-San_Diego_California.html">Click here</a> for detail</p>
+							</div>
+					</div>
+
+					<div class="inner-content">
+							<img src="https://images.unsplash.com/photo-1505245208761-ba872912fac0?auto=format&fit=crop&w=2700&q=80">
+							<div class="overlay-content">
+								<h4>LA JOLLA</h4>
+								<p><a href="https://www.tripadvisor.com/Tourism-g32578-La_Jolla_San_Diego_California-Vacations.html">Click here</a> for detail</p>
+							</div>
+					</div>
+
+			</div>
+
+			<ul id="p4-nav" class="text-center">
+				<li id="prev">&lt;</li>
+				<li id="next">&gt;</li>
+			</ul>
+
 	</div>
 
 	<div class="pageFive" id="p5">

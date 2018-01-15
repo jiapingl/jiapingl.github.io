@@ -90,11 +90,6 @@ body{
     background-size: cover;
 }
 
-#p1 .item .container a:hover{
-	color: black;
-	text-decoration: none;
-}
-
 #p1 .fixpos .wrap{
 	padding-top: 80px;
 }
@@ -102,6 +97,11 @@ body{
 .social{
 	color: white;
 	padding: 15px;
+}
+
+.social:hover{
+	color: black;
+	text-decoration: none;
 }
 
 .pageTwo{
@@ -199,26 +199,6 @@ strong{
 	top: 0px;
 }
 
-#p4 #p4-nav{
-	padding-left: 0px;
-	padding-top: 25px;
-}
-
-#p4 #p4-nav li{
-	width: 28px;
-	margin-left: 20px;
-	list-style-type: none;
-	display: inline-block !important;
-	cursor: pointer;
-	background-color: #333;
-	font-size: 25px;
-	color: white;
-	border-radius: 60%;
-}
-
-#p4 #p4-nav li:hover{
-	background-color: rgb(255, 102, 0);
-}
 
 .pageFive{
 	background-color: rgb(0, 153, 153);
@@ -253,6 +233,7 @@ strong{
 .footer{
 	padding-top: 10px;
 }
+
 
 @media(max-width: 768px){
 

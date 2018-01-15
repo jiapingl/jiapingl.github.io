@@ -48,29 +48,22 @@ $(document).ready(function(){
     	$('.navbar-collapse').collapse('hide');
 	});
 
-	$('#p4 #demo').carouFredSel({
-
-		responsive:true,
-		circular:true,
-		width:"100%",
-		prev:"#prev",
-		next:"#next",
-        scroll : { 
-            items            : 1,  
-            duration         : 500, 
-            pauseOnHover     : true 
-        },
-        auto:true,
-        items:{
-        	visible:{
-        		min:1,
-        		max:4
-        	},
-        	height:"variable"
-        }
-
-	}); 
+	var owl = $('.owl-carousel');
+	var owlCarouselTimeout = 1000;
+	owl.owlCarousel({
+	   items:4,
+	   loop:true,
+	   margin:10,
+	   autoplay:true,
+	   autoplayTimeout: owlCarouselTimeout,
+	   autoplayHoverPause:true
+	});
+	owl.on('mouseleave',function(){
+	   owl.trigger('stop.owl.autoplay'); //this is main line to fix it
+	   owl.trigger('play.owl.autoplay', [owlCarouselTimeout]);
+	})
 
 })
+
 
 
